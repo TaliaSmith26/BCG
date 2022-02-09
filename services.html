@@ -1,0 +1,205 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+
+  <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+
+  <title> Services </title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+
+  <style>
+
+    /* top header box */
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color:rgb(52, 78, 65);
+      color: white;
+    }
+    
+    .title {
+      color: grey;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    /* image */ 
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border: 5px solid rgb(52, 78, 65);
+    }
+
+    /* flex box for 3 images */ 
+
+        * {
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+      border: 5px solid rgb(52, 78, 65);
+    }
+
+    /* Three equal columns that sits next to each other */
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+      border: 5px solid rgb(52, 78, 65);
+    }
+
+
+    /* Text boxes */
+    * {
+      box-sizing: border-box;
+    } 
+
+    .box {
+      float: left;
+      width: 33.33%;
+      padding: 40px;
+      border: 20px solid white;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    p { 
+      text-align: center;
+     }
+
+     .box2 {
+        float: left;
+        width: 100%;
+        padding: 30px;
+     }
+
+    /* button */ 
+    .button {
+      background-color: rgb(52, 78, 65);
+      border: none;
+      color: rgb(218, 215, 205);
+      padding: 20px 32px;
+      text-align: center;
+      display: block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+</style>
+</head>
+<body>
+
+  <ul class = "a">
+      <li><a href="home.html" >Home</a></li>
+      <li><a href="services.html" >Services</a></li>
+      <li><a href="contact.html" >Contact</a></li>
+    </ul>
+
+
+
+  <div class="about-section">
+    <h1>Our Services</h1>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <p>
+    Our goal at Boston Community Gardens is to help the community. There are many ways we do this through our organization, but here are just a few: 
+  </p>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="row">
+  <div class="column">
+    <img src="neonbrand-qo6_mo9dsYg-unsplash.jpg" alt="people" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="elaine-casap-qgHGDbbSNm8-unsplash.jpg" alt="tomatos" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="osman-rana-xJueGJJHnWs-unsplash.jpg" alt="boston" style="width:100%">
+  </div>
+  </div>
+
+
+  <!-- text boxes --> 
+  <div class="clearfix">
+  <div class="box" style="background-color:rgb(218, 215, 205);">
+  <p> We bring communities together through the shared bonding experience of gardening in the beautiful Boston area. </p>
+
+  </div>
+  <div class="box" style="background-color:rgb(218, 215, 205);">
+  <p> We provide the low-income community more access to fresh foods that we produce, hopefully leading to better dietary habits.</p>
+  </div>
+  <div class="box" style="background-color:rgb(218, 215, 205);">
+  <p> We improve Boston's soil and air quality, biodiversity with plants and animals, and decrease neighborhoud waste through composting.</p>
+  </div>
+</div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  
+  <div class="box2" style="background-color: rgb(218, 215, 205)">
+  <p>Anybody in the Boston area is welcome to become a member. We are always thrilled to expand our gardening community!</p>
+
+  <br>
+  <input type="button" class="button" value="Click here for Membership">
+  </div>
+
+
+
+ 
+
+  <!-- Button --> 
+  
+
+
+  <!-- To add more scrolling space at bottom -->
+  <div style="margin-top:500px"></div>
+ 
+</body>
+
+</html>
+
+<!-- style="background-color:rgb(218, 215, 205);"> --> 
+
+
+

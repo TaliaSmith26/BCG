@@ -1,0 +1,86 @@
+< style type = text/css">
+
+head {  }
+
+
+
+/* Navigation bar */ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(218, 215, 205);
+        /* or white for nav bar text? */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+/* Page title (home, services, contact) */ 
+h1 { 
+color: rgb(218, 215, 205);
+margin-left: 20px;
+text-align: center;
+font-size: 40px;
+ }
+
+/* benefits list
+ul.b {
+list-style-type: circle;
+list-style-position: outside;
+}
+
+li.b {
+  float: left;
+  font-size: 20px;
+  }
+  */
+
+/*
+ .bpx { width:  150px; border: 1px #000 solid }
+*/
+
+/* All paragraph sizes */ 
+ p{ 
+  font-size:  20px; 
+
+
+
+
+</style>
+
+
+
+
+/* color pallete notes: 
+
+Light creme  <div class="is-light" style="background: rgb(218, 215, 205);"> 
+
+ <div class="is-light" style="background: rgb(163, 177, 138);">…</div>
+
+ <div style="background: rgb(88, 129, 87);" class>…</div>
+
+ <div style="background: rgb(58, 90, 64);">…</div>
+
+ dark green iv style="background: rgb(52, 78, 65);" class>…</div>
+
+ black is automatic color on websites I believe 
+
+
+
+ */ 
