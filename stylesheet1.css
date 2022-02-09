@@ -39,27 +39,10 @@ text-align: center;
 font-size: 40px;
  }
 
-/* benefits list
-ul.b {
-list-style-type: circle;
-list-style-position: outside;
-}
 
-li.b {
-  float: left;
-  font-size: 20px;
-  }
-  */
-
-/*
- .bpx { width:  150px; border: 1px #000 solid }
-*/
-
-/* All paragraph sizes */ 
+/* All paragraphs */ 
  p{ 
   font-size:  20px; 
-
-
 
 
 </style>
@@ -67,7 +50,7 @@ li.b {
 
 
 
-/* color pallete notes: 
+/* color pallete: 
 
 Light creme  <div class="is-light" style="background: rgb(218, 215, 205);"> 
 
